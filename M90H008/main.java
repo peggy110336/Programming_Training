@@ -9,7 +9,7 @@ public class main {
 		NumberFormat nf = NumberFormat.getInstance();
 		nf.setMaximumFractionDigits( 5 );
 		System.out.println();
-		System.out.println("½Ð¿é¤J¤@¾ã¼Æ:");
+		System.out.println("è«‹è¼¸å…¥ä¸€æ•´æ•¸:");
 		int x = enter.nextInt();
 		
 		System.out.print("f(f(f("+x+")))="+nf.format( function(x) ));
